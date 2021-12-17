@@ -1,0 +1,133 @@
+1.
+In [45]: Flour = 9.45
+In [46]: oil = 5.67
+In [47]: milk = 3.20
+In [48]: eggs = 7.47
+In [49]: bread = 20.23
+
+2.
+In [51]: print(Flour + oil + milk + eggs + bread)
+46.019999999999996
+
+3.
+In [52]: print(Flour + oil + milk + eggs + bread*5)    ...:
+126.94
+
+4.
+In [53]: phrase = 'Blood oxygenation level dependan    ...: t functional magnetic resource imaging '
+In [54]: print(len(phrase))
+71
+
+5.
+
+In [56]: favorite_snack = "popcorn"
+
+In [57]: print(favorite_snack*100)
+popcornpopcornpopcornpopcornpopcornpop
+cornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpop
+cornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopcorn
+popcornpopcornpopcornpopcornpopcornpopcornpopc
+
+Challenge 1: 
+In [60]: dir('any_string')
+Out[60]:
+['__add__',
+ '__class__',
+ '__contains__',
+ '__delattr__',
+ '__dir__',
+ '__doc__',
+ '__eq__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__getitem__',
+ '__getnewargs__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__init_subclass__',
+ '__iter__',
+ '__le__',
+ '__len__',
+ '__lt__',
+ '__mod__',
+ '__mul__',
+ '__ne__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__rmod__',
+ '__rmul__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ 'capitalize',
+ 'casefold',
+ 'center',
+ 'count',
+ 'encode',
+ 'endswith',
+ 'expandtabs',
+ 'find',
+ 'format',
+ 'format_map',
+ 'index',
+ 'isalnum',
+ 'isalpha',
+ 'isascii',
+ 'isdecimal',
+ 'isdigit',
+ 'isidentifier',
+ 'islower',
+ 'isnumeric',
+ 'isprintable',
+ 'isspace',
+ 'istitle',
+ 'isupper',
+ 'join',
+ 'ljust',
+ 'lower',
+ 'lstrip',
+ 'maketrans',
+ 'partition',
+ 'replace',
+ 'rfind',
+ 'rindex',
+ 'rjust',
+ 'rpartition',
+ 'rsplit',
+ 'rstrip',
+ 'split',
+ 'splitlines',
+ 'startswith',
+ 'strip',
+ 'swapcase',
+ 'title',
+ 'translate',
+ 'upper',
+ 'zfill']
+
+In [61]: help('any_string'.count)
+In [62]: help('any_sting'.join)
+In [63]: vegetables = ['greens', 'spinach', 'kale']
+In [64]: x = vegetables.count('kale')
+In [65]: print(x)
+1
+
+Challenge 2: 
+In [71]:  shopping_list = {'flour': 9.45, 'oil': 5.67, 'milk': 3.20, 'eggs': 7.47, 'bread': 20.23}
+In [72]: print(shopping_list)
+{'flour': 9.45, 'oil': 5.67, 'milk': 3.2, 'eggs': 7.47, 'bread': 20.23}
