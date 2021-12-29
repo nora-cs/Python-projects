@@ -1,15 +1,18 @@
-1. Greet = "Good morning folks"
-      print(Greet)
+ 1. print(type([])is list)
+True
 
-2. You can use a harsh mark (#) on a single line or three doubl quotes(""") open and close
-              for a block or multi-lines
-              
-3. Create a variable with the numeric value by declaring the number and passing it into a value
-                 x = 7
-                print(x)
+2. [5]: def myfun():
+       x  = x + 1
+        print(x)
+        myfunc()
+        print(x)
+        x = 75
 
-4. Extension for python files is PY
+3. print(bool(0), bool(3.14159), bool(-3), bool(1.0 + 1j))
+False True True True
 
-5. x = 8.6
+4.type(range(5))
+range
 
-
+5. print(type(10))
+<class 'int'>
