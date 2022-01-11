@@ -72,5 +72,46 @@ if x ** 2 > 100 and y < 100:
         x = 100
         y = 50
         print(x and y)
-
 50
+# Monday Jan 10th
+# 1. write a python function to find the max of 3 numbers.
+def max_num(x,y,z):
+     return max(x,y,z)
+max_num(5,8,9)
+#2. Write a python function to sum all the numbers in a list.
+def sum_num(a,b,c,d):
+    total = a+b+c+d
+    return total
+sum_num(1,2,3,4)
+#3. Write a python function to multiply all numbers in a list
+def multiply_num(a,b,c,d):
+    total = a*b*c*d
+    return total
+multiply_num(1,2,3,4)
+#4. Write a python function to reverse a given string.
+def string(x):
+   return x[::-1]
+   print(string)
+string('I love Python')
+#5. Write a python function that takes a string and displays the number of upper case letters and the number of lower case letters.
+def count_up_and_low(string):
+     u = [i for i in string if i.isupper()]
+     l = [i for i in string if i.islower()]
+     return len(u), len(l)
+count_up_and_low('I Love Python')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
