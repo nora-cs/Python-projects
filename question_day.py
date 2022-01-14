@@ -100,6 +100,32 @@ def count_up_and_low(string):
      return len(u), len(l)
 count_up_and_low('I Love Python')
 
+#January 11th 
+
+#So for example if func(23, 25, 25)
+#it should print 23, 25, and 25,
+#if func(20, 21)
+#it should print 20, 21
++#Also, it must return both addition and subtraction in a single return call.
+#Write a program to create a function show_employee() using the following conditions.
+#It should accept the employee’s name and salary and display both.
+#If the salary is missing in the function call then assign default value 9000 to salary
+
+#January 12th
+#Write a shut_down functioon that takes one argument. if the argument is yes, the function should return shutting down, if no it should return shut down aborted. if the argument is neither yes or no, the function should return sorry.
+def shut_down(x):
+ for i in  x:
+  if  i in x:
+        print(i, 'shutting down')
+  elif   print(i, 'shut down aborted'):
+  else:
+        print('sorry')
+  shut_down()      
+#Define a function called hotel_cost with one argument nights as input. The hotel costs $140 per night. So, the function hotel_cost should return 140 * nights.
+#Define a function called plane_ride_cost that takes a string, city, as input. The function should return a different price depending on the location.
+#define a function called rental_car_cost with an argument called days. Calculate the cost of renting the car: Every day you rent the car costs $40.(cost=40*days) if you rent the car for 7 or more days, you get $50 off your total(cost-=50). Alternatively (elif), if you rent the car for 3 or more days, you get $20 off your total. You cannot get both of the above discounts. Return that cost.
+#Now define a function called trip cost that takes the output from the three functions above and prints the total cost of the trip
+#First, def a function called distance_from_zero, with one argument (choose any argument name you like). If the type of the argument is either int or float, the function should return the absolute value of the function input. Otherwise, the function should return "Nope". Check if it works calling the function with -5.6 and "what?".
 
 
 
