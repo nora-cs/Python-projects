@@ -128,13 +128,27 @@ def shut_down(x):
 #First, def a function called distance_from_zero, with one argument (choose any argument name you like). If the type of the argument is either int or float, the function should return the absolute value of the function input. Otherwise, the function should return "Nope". Check if it works calling the function with -5.6 and "what?".
 
 
-
-
-
-
-
-
-
+ #January 17th 2022
+ 
+#1. Which of the following is an operator and which is a value
+* #operator
+'Hello' #value
+-88.88  #value
+- #operator
+/  #operator
++  #operator
+5  #operator
+#2. Which of these is a variable and which is a string
+ spam #variable
+'spam' #string
+#3. Name three data types 
+ floats, intergers, strings
+#4. what is an expression made of. What do all expressions do?
+ A specific sequence of characters that help you match and find other strings by evaluating them 
+#5. What does the variable bacon contain after running the the code below
+bacon = 20
+bacon + 1
+21
 
 
 
