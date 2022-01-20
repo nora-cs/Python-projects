@@ -150,8 +150,20 @@ bacon = 20
 bacon + 1
 21
 
+#Jan. 19th
 
-
+#What are the two values of a boolean data type. How do you write them. 
+True = 1, False = 0
+#What are the three boolean operators? 
+and, or , not
+#Write out the truth tables of both boolean operators i.e every possible combination of boolean values and their result. 
+and	True if both are true	a and b
+or	True if at least one is true	a or b
+not	True only if false
+#What are the six comparison operators. 
+Less than(<), Greater that(>), Less than or equal to(<=), Greater than or equal to (>=), Equal to(==), Not equal to(!=)
+#What is the difference between the equal operator and the assignment operator
+the equal operator(=)is used to assign value to a variable and the assignment operator (==)is used to compare two variable or constants
 
 
 
