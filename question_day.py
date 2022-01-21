@@ -165,5 +165,22 @@ Less than(<), Greater that(>), Less than or equal to(<=), Greater than or equal 
 #What is the difference between the equal operator and the assignment operator
 the equal operator(=)is used to assign value to a variable and the assignment operator (==)is used to compare two variable or constants
 
+# Why are functions advantages to have in your programs
+To better organize our code
+# When does the code in a function get executed, when its defined or when it is called ??
+When it's called
+#. what statement creates a function
+def
+# if a function does not have a return value, what is the return value when the function is called??
+A default value
+# How can you prevent a program from crashing if it runs into an error
+  Trying your code without printing it
+
+
+
+
+
+
+
 
 
