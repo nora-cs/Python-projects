@@ -174,8 +174,25 @@ def
 # if a function does not have a return value, what is the return value when the function is called??
 A default value
 # How can you prevent a program from crashing if it runs into an error
-  Trying your code without printing it
+Trying your code without printing it 
+  
 
+# Monday 24th
+
+#Why is eggs a valid variable but 100 is not?
+ because 100 begins with a number
+
+#what 3 functions can be used to get the integer, floating point number or string version of a value
+ The int(), float(), and str() functions
+#Why does the following expression result in an error? How can you fix it.
+'I have eaten ' + 99 + ' burritos'
+put quotes around 99 to treat it as a string because all the other phrases are strings
+
+#if you have a function named fufu() inside of a module named lunch, how will you call it after importing lunch?
+Use the CALL FUNCTION statement to call it 
+
+#what goes in the try clause, what goes in the except clause of a function
+The try clause will execute as long as there is no exception/error where as the except clause will execute if there is an exception or error in the code
 
 
 
