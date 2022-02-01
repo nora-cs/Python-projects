@@ -194,10 +194,32 @@ Use the CALL FUNCTION statement to call it
 #what goes in the try clause, what goes in the except clause of a function
 The try clause will execute as long as there is no exception/error where as the except clause will execute if there is an exception or error in the code
 
+#January 31st 
 
-
-
-
-
+#when we talk about relative paths, what is the relative path relative to??
+The location that is relative to a current directory
+#What does an absolute path start with??
+ (/) symbol
+#what are the 3 mode arguments that can be passed to the open() function??
+r : Opens the file in read-only mode. ...
+rb : Opens the file as read-only in binary format and starts reading from the beginning of the file. ...
+r+ : Opens a file for reading and writing, placing the pointer at the beginning of the file.
+#What happens if an existing file is opened in write mode??
+ It creates an empty file for output operations
+#what is the difference between the read() and the readlines() methods??
+The read() method returns the specified number of bytes from the file whileThe readline() function reads from a file in read mode and returns the next line in the file or a blank string if there are no more lines 
+ 
+ # February 1st 2022:
+ 
+ #what is the function that creates regex objects
+ The re. compile() function
+ #Why are raw strings often used when creating regex objects
+ So backslashes do not have to be escaped.
+ #What does the search() method return?
+ A match object if there is a match, returns a "none" value if no matches are found
+ #In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? group1?, group2?
+ Group 0 is the entire match, group 1 covers the first set of parentheses, and group 2 covers the second set of parentheses.
+ #Parentheses and periods have specific meanings in regular expressions. How will you specify that you want a regex to match actual parenthesis and period characters?
+ use a / slash
 
 
