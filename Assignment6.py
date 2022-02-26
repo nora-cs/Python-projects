@@ -1,26 +1,31 @@
 #Write a python function that takes one argument, which is a list and swaps the first and last items on that list
+def swap_items(lst):
+    temp_variable = lst[0]
+    lst[0] = lst[-1]
+    lst.pop()
+    lst.append(temp_variable)
+    return lst
 
-list = [ 3, 5, 9, 11 ]
-def list(newlist):
-    list[0], list[-1] = list[-1], list[0]
-    list
-    
 #Write the code that allows you to show that your function works as it should
+cars = ['bmw', 'merz', 'honda', 'Toyota']
+print(swap_items(cars))
 #Write a python function that takes one argument which is a string and reverses the order of the words in the string.
-def word(string):  
-    word = string.split(' ') 
-    rev = ' '.join(reversed(word)) 
-    return rev
+def reverse_string(string):  
+    new = reverse() 
+    new_string = " ".join(new)
+    return new_string
+
+string = 'I love Python'
+print(reverse_string(string))
  
-s= "I love python"
-print ("reverse: " ,rev_words(s))
 
 # Create a dictionary and display its keys alphabetically.
-from collections import OrderedDict
- 
-dict = {'marie':'1','joy':''2','tom':'3','lem':'4'}
-dict1 = OrderedDict(sorted(dict.items()))
-print(dict1)
+def sort_dictionary_by_key(dictionary):
+    dictionary = {'age':20, 'zip':1111, 'gender': female}
+
+    for i,j in dictionary.items()
+        print(i, ':', j)
+
 #Display both the keys and values sorted in alphabetical order by the key.
 #Same as part (ii), but sorted in alphabetical order by the value.
 #Write a python function called doings that takes one argument named number. if number is even, doings should print dividing number by 2, divide number by two and return the answer. if number is odd, the function should print, multiplying number by 3 and adding one, then multiply number by 3 and add one to it and return that result. Then write a function that allows a user to enter the numbers that get passed to the doing function. It should keep asking for the number as long as the result of doings is not 1.

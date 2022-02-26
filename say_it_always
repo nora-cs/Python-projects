@@ -1,0 +1,11 @@
+/c/Users/Owner/Desktop/learning-python/Python-projects
+
+def say_it():
+    greetings = "Hello"
+    target = "Willy"
+    message = f"{greetings} {target}"
+    print(message)
+    
+say_it()
+
+
